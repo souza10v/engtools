@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="form-container">
+      <form [formGroup]="foundationForm" (ngSubmit)="validateFck()">
+        <label for="tipoEstaca">Tipo de Estaca:</label>
+        <select id="tipoEstaca" formControlName="tipoEstaca">
+          <option value="Broca (Escavada sem fluido)">Broca (Escavada sem fluido)</option>
+          <option value="Escavada com fluido">Escavada com fluido</option>
+          <option value="Franki">Franki</option>
+          <option value="Raiz">Raiz</option>
+          <option value="Hélice">Hélice</option>
+          <option value="Strauss">Strauss</option>
+        </select>
+      
+        <label for="concreto">Concreto:</label>
+        <select id="concreto" formControlName="concreto">
+          <option *ngFor="let c of ['C10', 'C15', 'C20', 'C25', 'C30', 'C34', 'C40', 'C45', 'C50', 'C55', 'C60', 'C70']" [value]="c">{{ c }}</option>
+        </select>
+        
+        <label for="aco">Aço:</label>
+        <input id="aco" type="text" formControlName="aco" value="CA-50" readonly>
+        
+        <label for="tipoBrita">Tipo de Brita:</label>
+        <select id="tipoBrita" formControlName="tipoBrita">
+          <option value="Basalto e Diabásio">Basalto e Diabásio</option>
+          <option value="Granito e Gnaisse">Granito e Gnaisse</option>
+          <option value="Calcário e Arenito">Calcário e Arenito</option>
+        </select>
+  
+        <label for="fck">Fck (MPa):</label>
+        <input id="fck" type="number" formControlName="fck">
+  
+        <label for="diametro">Diâmetro Φ (cm):</label>
+        <input id="diametro" type="number" formControlName="diametro" (input)="calculateProperties()">
+      
+        <label for="comprimento">Comprimento L (m):</label>
+        <input id="comprimento" type="number" formControlName="comprimento">
+      
+        <button type="submit">Validar</button>
+      </form>
+    </div>
+  
+    <div class="resultados">
+        <p><strong>Área AT (cm²):</strong> {{ area | number: '1.2-2' }} </p>
+        <p><strong>Inércia I (cm⁴):</strong> {{ inercia | number: '1.2-2' }}</p>
+        <p><strong>Validação:</strong> {{ fckValidationMessage }} </p>
+        
+        <p><strong>Fck (MPa):</strong> {{ fckValue | number: '1.2-2' }}</p>
+        <p><strong>Fyk (MPa):</strong> {{ fykValue | number: '1.2-2' }}</p>
+        <p><strong>Eci (MPa):</strong> {{ eciValue | number: '1.2-2' }}</p>
+        <p><strong>Fcd (MPa):</strong> {{ fcdValue | number: '1.2-2' }}</p>
+        <p><strong>Fyd (MPa):</strong> {{ fydValue | number: '1.2-2' }}</p>
+        <p><strong>Eck (MPa):</strong> {{ eckValue | number: '1.2-2' }}</p>
+        
+    </div>
+  </div>
+  

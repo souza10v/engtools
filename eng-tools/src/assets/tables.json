@@ -1,0 +1,75 @@
+{
+    "concreteTable": {
+      "C10": 10,
+      "C15": 15,
+      "C20": 20,
+      "C25": 25,
+      "C30": 30,
+      "C35": 35,
+      "C40": 40,
+      "C45": 45,
+      "C50": 50,
+      "C55": 55,
+      "C60": 60,
+      "C70": 70,
+      "C80": 80,
+      "C90": 90,
+      "C100": 100
+    },
+    "steelTable": {
+      "CA-25": 250,
+      "CA-50": 500,
+      "CA-60": 600
+    },
+    "aggregateTable": {
+      "Basalto e Diabásio": 1.2,
+      "Granito e Gnaisse": 1,
+      "Calcário": 0.9,
+      "Arenito": 0.7
+    },
+    "pileTable": [
+      {
+        "Estaca": "Broca (Escavada sem fluido)",
+        "γf": 1.4,
+        "γc": 1.9,
+        "γs": 1.15,
+        "fck_max": 15
+      },
+      {
+        "Estaca": "Escavada com fluido",
+        "γf": 1.4,
+        "γc": 1.8,
+        "γs": 1.15,
+        "fck_max": 20
+      },
+      {
+        "Estaca": "Franki",
+        "γf": 1.4,
+        "γc": 1.8,
+        "γs": 1.15,
+        "fck_max": 20
+      },
+      {
+        "Estaca": "Raiz",
+        "γf": 1.4,
+        "γc": 1.6,
+        "γs": 1.15,
+        "fck_max": 20
+      },
+      {
+        "Estaca": "Hélice",
+        "γf": 1.4,
+        "γc": 1.8,
+        "γs": 1.15,
+        "fck_max": 20
+      },
+      {
+        "Estaca": "Strauss",
+        "γf": 1.4,
+        "γc": 1.9,
+        "γs": 1.15,
+        "fck_max": 15
+      }
+    ]
+  }
+  

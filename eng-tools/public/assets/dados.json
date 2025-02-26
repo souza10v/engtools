@@ -1,0 +1,39 @@
+{
+    "concreto": {
+      "C10": 10,
+      "C15": 15,
+      "C20": 20,
+      "C25": 25,
+      "C30": 30,
+      "C35": 35,
+      "C40": 40,
+      "C45": 45,
+      "C50": 50,
+      "C55": 55,
+      "C60": 60,
+      "C70": 70,
+      "C80": 80,
+      "C90": 90,
+      "C100": 100
+    },
+    "aco": {
+      "CA-25": 250,
+      "CA-50": 500,
+      "CA-60": 600
+    },
+    "coeficienteE": {
+      "Basalto e Diabásio": 1.2,
+      "Granito e Gnaisse": 1,
+      "Calcário": 0.9,
+      "Arenito": 0.7
+    },
+    "estacas": {
+      "Broca (Escavada sem fluido)": { "gammaC": 1.9, "gammaS": 1.15, "fckMax": 15 },
+      "Escavada com fluido": { "gammaC": 1.8, "gammaS": 1.15, "fckMax": 20 },
+      "Franki": { "gammaC": 1.8, "gammaS": 1.15, "fckMax": 20 },
+      "Raiz": { "gammaC": 1.6, "gammaS": 1.15, "fckMax": 20 },
+      "Hélice": { "gammaC": 1.8, "gammaS": 1.15, "fckMax": 20 },
+      "Strauss": { "gammaC": 1.9, "gammaS": 1.15, "fckMax": 15 }
+    }
+  }
+  
