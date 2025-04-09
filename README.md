@@ -1,20 +1,26 @@
-🛠️ EngTools – Foundation Calculation for Civil Engineering
-EngTools is an Angular web application currently in development, focused on providing tools to assist civil engineers with calculations. The project aims to simplify and speed up the process of designing and analyzing foundations.
+# 🛠️ EngTools – Foundation Calculation for Civil Engineering
 
-🚧 Status: In Development
-🎯 Planned Features:
-Foundation sizing and load analysis
+**EngTools** is a web application built with **Angular**, designed to help civil engineers perform essential foundation calculations.  
+It aims to simplify, accelerate, and enhance the accuracy of foundation design and analysis.
 
-Support for different soil types and load conditions
+---
 
-Interactive input interface with real-time feedback
+## 🚧 Project Status
+**In Development**
 
-Exportable calculation reports
+---
 
-⚙️ Tech Stack:
-Angular
+## 🎯 Planned Features
 
-TypeScript
+- 📐 Foundation sizing and load analysis  
+- 🌍 Support for various soil types and load conditions  
+- 🧮 Interactive input interface with real-time feedback  
+- 📤 Exportable calculation reports (PDF/CSV)
 
-HTML & CSS
+---
 
+## ⚙️ Tech Stack
+
+- **Frontend:** Angular  
+- **Language:** TypeScript  
+- **UI:** HTML & CSS  
