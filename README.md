@@ -1,4 +1,4 @@
-# 🛠️ EngTools – Foundation Calculation for Civil Engineering
+# 🛠️ EngTools – Calculation for Civil Engineering
 
 **EngTools** is a web application built with **Angular**, designed to help civil engineers perform essential foundation calculations.  
 It aims to simplify, accelerate, and enhance the accuracy of foundation design and analysis.
